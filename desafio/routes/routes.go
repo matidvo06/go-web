@@ -10,9 +10,9 @@ import (
 )
 
 type Response struct {
-	Success bool `json:"success"`
+	Success bool     `json:"success"`
 	Data interface{} `json:"data"`
-	Error string `json:"error"`
+	Error string     `json:"error"`
 }
 
 func handleGetByCountry(repo tickets.Repository) http.HandlerFunc {
