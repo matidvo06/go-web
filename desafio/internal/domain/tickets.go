@@ -1,7 +1,7 @@
 package domain
 
 type Ticket struct{
-	Id 		string
+	Id 	string
 	Name 	string
 	Email 	string
 	Country string
